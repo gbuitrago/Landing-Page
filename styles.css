@@ -38,7 +38,7 @@ ul{
     
 }
 
-a, .subtext {
+a, .subtext, .img-text {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px
@@ -58,3 +58,45 @@ a, .subtext {
     padding: 0 
 }
 
+.signup{
+    margin-top: 15px;
+    padding: 4px 10px;
+    background-color: #3882f6;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px
+}
+
+.info-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container{
+    display: flex;
+    padding: 20px;
+    max-width: 500px;
+    justify-content: space-evenly;
+    gap: 50px
+}
+
+.img-hold{
+    border-color: #3882f6;
+    border-style:outset;
+    max-width: 300px;
+    min-height: 100px;
+}
+
+.img-text{
+    font-size: small;
+}
